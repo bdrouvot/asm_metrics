@@ -29,24 +29,7 @@ Let’s see the help:
 
 Usage: ./asm_metrics.pl [-interval] [-count] [-inst] [-dbinst] [-dg] [-fg] [-ip] [-show] [-display] [-sort_field] [-help]
 
- Default Interval : 1 second.
- Default Count    : Unlimited
-
-  Parameter         Comment                                                           Default
-  ---------         -------                                                           -------
-  -INST=            ALL - Show all Instance(s)                                        ALL
-                    CURRENT - Show Current Instance
-                    INSTANCE_NAME,... - choose Instance(s) to display
-
-  -DBINST=          Database Instance to collect (Wildcard allowed)                   ALL
-  -DG=              Diskgroup to collect (Wildcard allowed)                           ALL
-  -FG=              Failgroup to collect (Wildcard allowed)                           ALL
-  -IP=              IP (Exadata Cells) to collect (Wildcard allowed)                  ALL
-  -SHOW=            What to show: inst,dbinst,fg|ip,dg,dsk (comma separated list)     DG
-  -DISPLAY=         What to display: snap,avg (comma separated list)                  SNAP
-  -SORT_FIELD=      reads|writes|iops                                                 NONE
-
-
+ 
 - Example: ./asm_metrics.pl
 - Example: ./asm_metrics.pl  -inst=+ASM1
 - Example: ./asm_metrics.pl  -dg=DATA -show=dg
