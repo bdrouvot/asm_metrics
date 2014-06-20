@@ -25,7 +25,7 @@ At the following levels:
 
 Let’s see the help:
 
-> ./asm_metrics.pl -help
+./asm_metrics.pl -help
 
 Usage: ./asm_metrics.pl [-interval] [-count] [-inst] [-dbinst] [-dg] [-fg] [-ip] [-show] [-display] [-sort_field] [-help]
 
